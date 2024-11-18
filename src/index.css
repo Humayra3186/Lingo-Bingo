@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.active{
+  color: rgb(3, 146, 197);
+  
+}
+body{
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+span{
+  font-family:cursive;
+
+}
