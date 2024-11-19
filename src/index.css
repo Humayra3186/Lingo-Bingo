@@ -3,7 +3,9 @@
 @tailwind utilities;
 
 .active{
-  color: rgb(3, 146, 197);
+  color: #0392c5;
+  text-decoration: underline;
+  text-underline-offset: 3px;
   
 }
 body{
@@ -13,4 +15,9 @@ body{
 span{
   font-family:cursive;
 
+}
+.banner{
+  background-image: url('./assets/pngtree-blue-background-design-with-business-technology-banner-theme-image_982127.jpg');
+  background-position: center;
+  background-size: cover;
 }

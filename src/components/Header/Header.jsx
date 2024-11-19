@@ -8,7 +8,7 @@ const Header = () => {
 
     const [open, setOpen] = useState(false)
     return (
-        <div className='py-6 bg-base-100 shadow-lg sticky top-0 z-10'>
+        <div className='py-6 bg-[#ffffff9f] shadow-md backdrop-blur  sticky top-0 z-10'>
 
             <div className='w-11/12 mx-auto flex items-center justify-between' >
 
@@ -40,7 +40,7 @@ const Header = () => {
                <p className='text-[1.2rem] lg:text-[1.5rem]  italic   font-extrabold font-serif text-slate-700 ' >ingoBingo</p>
                </div>
 
-                <ul className='hidden md:flex text-[0.8rem] lg:text-base gap-6 lg:gap-12'>
+                <ul className='hidden md:flex text-[0.9rem] gap-6 lg:gap-12'>
                     <li className='font-semibold text-slate-500'><NavLink to={"/"} >Home</NavLink></li>
                     <li className='font-semibold text-slate-500'><NavLink to={"/learning"} >Start-learning</NavLink></li>
                     <li className='font-semibold text-slate-500'><NavLink to={"/tutorial"} >Tutorials</NavLink></li>
