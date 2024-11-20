@@ -5,6 +5,7 @@ import Home from '../Layouts/Home';
 import Learning from '../Layouts/Learning';
 import Tutorial from '../Layouts/Tutorial';
 import About from '../Layouts/About';
+import Vocabulary from '../Layouts/Vocabulary';
 
 const Route = createBrowserRouter([
     {
@@ -26,6 +27,17 @@ const Route = createBrowserRouter([
         {
             path: "/about",
             element: <About></About>
+        },
+        {
+          path: "/lessons/:id",
+          element: <Vocabulary></Vocabulary>,
+          loader:async({params})=>{
+            const res = await fetch("/lesson.json")
+            const data = await res.json()
+            console.log(params.id)
+            const vocabularies = data.filter(d => d.lesson_no == params.id)
+            return vocabularies; 
+          }
         }
       ]
     },

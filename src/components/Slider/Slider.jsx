@@ -21,13 +21,13 @@ import { Pagination , Autoplay } from 'swiper/modules';
 
 const Slider = () => {
     return (
-        <div className='h-[35rem]   flex  '>
-            <div className='w-[50%] flex flex-col items-center justify-center mb-14  px-6'><p className='italic font-serif  inline-block text-[2.4rem] font-extrabold text-cyan-600 text-center mb-2 animate__animated animate__slower animate__infinite animate__delay-[1.5s] animate__pulse'>Lets learn <br />language & Build career</p>
+        <div className='md:h-[35rem]   md:flex  '>
+            <div className='md:w-[50%] pt-4 bg-[#a5a2a217] flex flex-col items-center justify-center md:mb-14  px-6'><p className='italic font-serif  inline-block text-[2.4rem] font-extrabold text-cyan-600 text-center mb-2 animate__animated animate__slower animate__infinite animate__delay-[1.5s] animate__pulse'>Lets learn <br />language & Build career</p>
             
             <img className='w-[30rem] h-[7rem]' src={wave} alt="" />
             </div>
              <Swiper
-        slidesPerView={3}
+        slidesPerView={1}
         spaceBetween={20}
         lazy={true}
         autoplay={{

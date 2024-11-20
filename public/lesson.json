@@ -1,0 +1,560 @@
+
+[
+    
+        {
+          "id": "word001",
+          "word": "ありがとう",
+          "pronunciation": "arigatou",
+          "meaning": "thank you",
+          "part_of_speech": "expression",
+          "difficulty": "easy",
+          "lesson_no": 1,
+          "when_to_say": "Used to express gratitude in informal settings.",
+          "example": "ありがとう、手伝ってくれて！ (arigatou, tetsudatte kurete!) - Thank you for helping me!"
+        },
+        {
+          "id": "word002",
+          "word": "こんにちは",
+          "pronunciation": "konnichiwa",
+          "meaning": "hello",
+          "part_of_speech": "expression",
+          "difficulty": "easy",
+          "lesson_no": 1,
+          "when_to_say": "Used as a greeting during the day.",
+          "example": "こんにちは、お元気ですか？ (konnichiwa, ogenki desu ka?) - Hello, how are you?"
+        },
+        {
+          "id": "word003",
+          "word": "さようなら",
+          "pronunciation": "sayounara",
+          "meaning": "goodbye",
+          "part_of_speech": "expression",
+          "difficulty": "easy",
+          "lesson_no": 1,
+          "when_to_say": "Used to bid farewell when parting for a long time.",
+          "example": "さようなら、また明日！ (sayounara, mata ashita!) - Goodbye, see you tomorrow!"
+        },
+        {
+          "id": "word004",
+          "word": "水",
+          "pronunciation": "mizu",
+          "meaning": "water",
+          "part_of_speech": "noun",
+          "difficulty": "easy",
+          "lesson_no": 2,
+          "when_to_say": "Used when referring to water in daily life.",
+          "example": "水をください。 (mizu wo kudasai.) - Please give me water."
+        },
+        {
+          "id": "word005",
+          "word": "食べる",
+          "pronunciation": "taberu",
+          "meaning": "to eat",
+          "part_of_speech": "verb",
+          "difficulty": "easy",
+          "lesson_no": 2,
+          "when_to_say": "Used to talk about eating food.",
+          "example": "朝ご飯を食べる。 (asagohan wo taberu.) - I eat breakfast."
+        },
+        {
+          "id": "word006",
+          "word": "美しい",
+          "pronunciation": "utsukushii",
+          "meaning": "beautiful",
+          "part_of_speech": "adjective",
+          "difficulty": "medium",
+          "lesson_no": 3,
+          "when_to_say": "Used to describe something visually pleasing.",
+          "example": "その花は美しいです。 (sono hana wa utsukushii desu.) - That flower is beautiful."
+        },
+        {
+          "id": "word007",
+          "word": "猫",
+          "pronunciation": "neko",
+          "meaning": "cat",
+          "part_of_speech": "noun",
+          "difficulty": "easy",
+          "lesson_no": 3,
+          "when_to_say": "Used when referring to cats.",
+          "example": "私の猫は白いです。 (watashi no neko wa shiroi desu.) - My cat is white."
+        },
+        {
+          "id": "word008",
+          "word": "大丈夫",
+          "pronunciation": "daijoubu",
+          "meaning": "okay",
+          "part_of_speech": "expression",
+          "difficulty": "easy",
+          "lesson_no": 4,
+          "when_to_say": "Used to express reassurance or ask if someone is fine.",
+          "example": "大丈夫ですか？ (daijoubu desu ka?) - Are you okay?"
+        },
+        {
+          "id": "word009",
+          "word": "空",
+          "pronunciation": "sora",
+          "meaning": "sky",
+          "part_of_speech": "noun",
+          "difficulty": "easy",
+          "lesson_no": 4,
+          "when_to_say": "Used when referring to the sky.",
+          "example": "空が青いです。 (sora ga aoi desu.) - The sky is blue."
+        },
+        {
+          "id": "word010",
+          "word": "早い",
+          "pronunciation": "hayai",
+          "meaning": "fast",
+          "part_of_speech": "adjective",
+          "difficulty": "medium",
+          "lesson_no": 5,
+          "when_to_say": "Used to describe speed or quickness.",
+          "example": "彼は走るのが早いです。 (kare wa hashiru no ga hayai desu.) - He runs fast."
+        },
+        {
+          "id": "word011",
+          "word": "友達",
+          "pronunciation": "tomodachi",
+          "meaning": "friend",
+          "part_of_speech": "noun",
+          "difficulty": "easy",
+          "lesson_no": 5,
+          "when_to_say": "Used to refer to a friend.",
+          "example": "友達と遊びます。 (tomodachi to asobimasu.) - I play with my friend."
+        },
+        {
+          "id": "word012",
+          "word": "飲む",
+          "pronunciation": "nomu",
+          "meaning": "to drink",
+          "part_of_speech": "verb",
+          "difficulty": "easy",
+          "lesson_no": 6,
+          "when_to_say": "Used to talk about drinking liquids.",
+          "example": "水を飲みます。 (mizu wo nomimasu.) - I drink water."
+        },
+        {
+          "id": "word013",
+          "word": "明るい",
+          "pronunciation": "akarui",
+          "meaning": "bright",
+          "part_of_speech": "adjective",
+          "difficulty": "medium",
+          "lesson_no": 6,
+          "when_to_say": "Used to describe brightness or cheerfulness.",
+          "example": "部屋が明るいです。 (heya ga akarui desu.) - The room is bright."
+        },
+        {
+          "id": "word014",
+          "word": "好き",
+          "pronunciation": "suki",
+          "meaning": "like",
+          "part_of_speech": "adjective",
+          "difficulty": "easy",
+          "lesson_no": 7,
+          "when_to_say": "Used to express liking something.",
+          "example": "私は犬が好きです。 (watashi wa inu ga suki desu.) - I like dogs."
+        },
+        {
+          "id": "word015",
+          "word": "走る",
+          "pronunciation": "hashiru",
+          "meaning": "to run",
+          "part_of_speech": "verb",
+          "difficulty": "medium",
+          "lesson_no": 7,
+          "when_to_say": "Used when talking about running.",
+          "example": "毎朝走ります。 (maiasa hashirimasu.) - I run every morning."
+        },
+        
+            {
+              "id": "word016",
+              "word": "犬",
+              "pronunciation": "inu",
+              "meaning": "dog",
+              "part_of_speech": "noun",
+              "difficulty": "easy",
+              "lesson_no": 8,
+              "when_to_say": "Used when referring to dogs.",
+              "example": "犬が公園で遊んでいます。 (inu ga kouen de asonde imasu.) - The dog is playing in the park."
+            },
+            {
+              "id": "word017",
+              "word": "勉強",
+              "pronunciation": "benkyou",
+              "meaning": "study",
+              "part_of_speech": "noun",
+              "difficulty": "medium",
+              "lesson_no": 8,
+              "when_to_say": "Used when talking about learning or studying.",
+              "example": "日本語を勉強しています。 (nihongo wo benkyou shiteimasu.) - I am studying Japanese."
+            },
+            {
+              "id": "word018",
+              "word": "寒い",
+              "pronunciation": "samui",
+              "meaning": "cold",
+              "part_of_speech": "adjective",
+              "difficulty": "easy",
+              "lesson_no": 9,
+              "when_to_say": "Used to describe cold weather or temperatures.",
+              "example": "今日は寒いです。 (kyou wa samui desu.) - It's cold today."
+            },
+            {
+              "id": "word019",
+              "word": "買う",
+              "pronunciation": "kau",
+              "meaning": "to buy",
+              "part_of_speech": "verb",
+              "difficulty": "medium",
+              "lesson_no": 9,
+              "when_to_say": "Used when purchasing something.",
+              "example": "新しい本を買いました。 (atarashii hon wo kaimashita.) - I bought a new book."
+            },
+            {
+              "id": "word020",
+              "word": "楽しい",
+              "pronunciation": "tanoshii",
+              "meaning": "fun",
+              "part_of_speech": "adjective",
+              "difficulty": "easy",
+              "lesson_no": 10,
+              "when_to_say": "Used to describe something enjoyable.",
+              "example": "旅行はとても楽しいです。 (ryokou wa totemo tanoshii desu.) - Traveling is so much fun."
+            },
+            {
+              "id": "word021",
+              "word": "読む",
+              "pronunciation": "yomu",
+              "meaning": "to read",
+              "part_of_speech": "verb",
+              "difficulty": "easy",
+              "lesson_no": 10,
+              "when_to_say": "Used when referring to reading books, documents, or signs.",
+              "example": "新聞を読みます。 (shinbun wo yomimasu.) - I read the newspaper."
+            },
+            {
+              "id": "word022",
+              "word": "遅い",
+              "pronunciation": "osoi",
+              "meaning": "slow/late",
+              "part_of_speech": "adjective",
+              "difficulty": "medium",
+              "lesson_no": 8,
+              "when_to_say": "Used to describe something slow or being late.",
+              "example": "バスが遅いです。 (basu ga osoi desu.) - The bus is slow."
+            },
+            {
+              "id": "word023",
+              "word": "家",
+              "pronunciation": "ie",
+              "meaning": "house",
+              "part_of_speech": "noun",
+              "difficulty": "easy",
+              "lesson_no": 7,
+              "when_to_say": "Used when referring to someone's home or house.",
+              "example": "私の家は大きいです。 (watashi no ie wa ookii desu.) - My house is big."
+            },
+            {
+              "id": "word024",
+              "word": "話す",
+              "pronunciation": "hanasu",
+              "meaning": "to speak",
+              "part_of_speech": "verb",
+              "difficulty": "medium",
+              "lesson_no": 9,
+              "when_to_say": "Used to talk about speaking or having conversations.",
+              "example": "英語を話します。 (eigo wo hanashimasu.) - I speak English."
+            },
+            {
+              "id": "word025",
+              "word": "高い",
+              "pronunciation": "takai",
+              "meaning": "expensive/tall",
+              "part_of_speech": "adjective",
+              "difficulty": "easy",
+              "lesson_no": 7,
+              "when_to_say": "Used to describe tall objects or expensive items.",
+              "example": "この靴は高いです。 (kono kutsu wa takai desu.) - These shoes are expensive."
+            },
+            {
+              "id": "word026",
+              "word": "新しい",
+              "pronunciation": "atarashii",
+              "meaning": "new",
+              "part_of_speech": "adjective",
+              "difficulty": "medium",
+              "lesson_no": 6,
+              "when_to_say": "Used to describe something that is recent or unused.",
+              "example": "新しい車を買いました。 (atarashii kuruma wo kaimashita.) - I bought a new car."
+            },
+            {
+              "id": "word027",
+              "word": "駅",
+              "pronunciation": "eki",
+              "meaning": "station",
+              "part_of_speech": "noun",
+              "difficulty": "easy",
+              "lesson_no": 10,
+              "when_to_say": "Used to refer to train or bus stations.",
+              "example": "駅はどこですか？ (eki wa doko desu ka?) - Where is the station?"
+            },
+            {
+              "id": "word028",
+              "word": "飲み物",
+              "pronunciation": "nomimono",
+              "meaning": "drink",
+              "part_of_speech": "noun",
+              "difficulty": "easy",
+              "lesson_no": 9,
+              "when_to_say": "Used to talk about beverages.",
+              "example": "冷たい飲み物をください。 (tsumetai nomimono wo kudasai.) - Please give me a cold drink."
+            },
+            {
+              "id": "word029",
+              "word": "車",
+              "pronunciation": "kuruma",
+              "meaning": "car",
+              "part_of_speech": "noun",
+              "difficulty": "easy",
+              "lesson_no": 8,
+              "when_to_say": "Used when referring to cars or vehicles.",
+              "example": "新しい車があります。 (atarashii kuruma ga arimasu.) - There is a new car."
+            },
+            {
+              "id": "word030",
+              "word": "青い",
+              "pronunciation": "aoi",
+              "meaning": "blue",
+              "part_of_speech": "adjective",
+              "difficulty": "easy",
+              "lesson_no": 7,
+              "when_to_say": "Used to describe objects with the color blue.",
+              "example": "青い空がきれいです。 (aoi sora ga kirei desu.) - The blue sky is beautiful."
+            },  {
+                "id": "word031",
+                "word": "犬",
+                "pronunciation": "inu",
+                "meaning": "dog",
+                "part_of_speech": "noun",
+                "difficulty": "easy",
+                "lesson_no": 4,
+                "when_to_say": "Used when referring to a dog.",
+                "example": "犬を飼っています。 (inu wo katte imasu.) - I have a dog."
+              },
+              {
+                "id": "word032",
+                "word": "鳥",
+                "pronunciation": "tori",
+                "meaning": "bird",
+                "part_of_speech": "noun",
+                "difficulty": "easy",
+                "lesson_no": 4,
+                "when_to_say": "Used when referring to a bird.",
+                "example": "鳥が空を飛んでいます。 (tori ga sora wo tonde imasu.) - A bird is flying in the sky."
+              },
+              {
+                "id": "word033",
+                "word": "昨日",
+                "pronunciation": "kinou",
+                "meaning": "yesterday",
+                "part_of_speech": "noun",
+                "difficulty": "easy",
+                "lesson_no": 5,
+                "when_to_say": "Used to refer to the day before today.",
+                "example": "昨日は忙しかったです。 (kinou wa isogashikatta desu.) - Yesterday was busy."
+              },
+              {
+                "id": "word034",
+                "word": "今日",
+                "pronunciation": "kyou",
+                "meaning": "today",
+                "part_of_speech": "noun",
+                "difficulty": "easy",
+                "lesson_no": 5,
+                "when_to_say": "Used to refer to the present day.",
+                "example": "今日は晴れています。 (kyou wa harete imasu.) - Today is sunny."
+              },
+              {
+                "id": "word035",
+                "word": "明日",
+                "pronunciation": "ashita",
+                "meaning": "tomorrow",
+                "part_of_speech": "noun",
+                "difficulty": "easy",
+                "lesson_no": 5,
+                "when_to_say": "Used to refer to the day after today.",
+                "example": "明日は休みです。 (ashita wa yasumi desu.) - Tomorrow is a holiday."
+              },
+              {
+                "id": "word036",
+                "word": "大きい",
+                "pronunciation": "ookii",
+                "meaning": "big",
+                "part_of_speech": "adjective",
+                "difficulty": "easy",
+                "lesson_no": 6,
+                "when_to_say": "Used to describe something that is large in size.",
+                "example": "大きい家に住んでいます。 (ookii ie ni sunde imasu.) - I live in a big house."
+              },
+              {
+                "id": "word037",
+                "word": "小さい",
+                "pronunciation": "chiisai",
+                "meaning": "small",
+                "part_of_speech": "adjective",
+                "difficulty": "easy",
+                "lesson_no": 6,
+                "when_to_say": "Used to describe something that is small in size.",
+                "example": "小さい猫がいます。 (chiisai neko ga imasu.) - There is a small cat."
+              },
+              {
+                "id": "word038",
+                "word": "新しい",
+                "pronunciation": "atarashii",
+                "meaning": "new",
+                "part_of_speech": "adjective",
+                "difficulty": "easy",
+                "lesson_no": 6,
+                "when_to_say": "Used to describe something that is new.",
+                "example": "新しい車を買いました。 (atarashii kuruma wo kaimashita.) - I bought a new car."
+              },
+              {
+                "id": "word039",
+                "word": "古い",
+                "pronunciation": "furui",
+                "meaning": "old (things)",
+                "part_of_speech": "adjective",
+                "difficulty": "easy",
+                "lesson_no": 6,
+                "when_to_say": "Used to describe something that is old.",
+                "example": "古い本を読みました。 (furui hon wo yomimashita.) - I read an old book."
+              },
+              {
+                "id": "word040",
+                "word": "暑い",
+                "pronunciation": "atsui",
+                "meaning": "hot (weather)",
+                "part_of_speech": "adjective",
+                "difficulty": "easy",
+                "lesson_no": 7,
+                "when_to_say": "Used to describe hot weather or temperature.",
+                "example": "今日は暑いですね。 (kyou wa atsui desu ne.) - It's hot today, isn't it?"
+              },
+              {
+                "id": "word041",
+                "word": "寒い",
+                "pronunciation": "samui",
+                "meaning": "cold (weather)",
+                "part_of_speech": "adjective",
+                "difficulty": "easy",
+                "lesson_no": 7,
+                "when_to_say": "Used to describe cold weather or temperature.",
+                "example": "寒いので、コートを着ます。 (samui node, ko-to wo kimasu.) - It's cold, so I'll wear a coat."
+              },
+              {
+                "id": "word042",
+                "word": "楽しい",
+                "pronunciation": "tanoshii",
+                "meaning": "fun, enjoyable",
+                "part_of_speech": "adjective",
+                "difficulty": "easy",
+                "lesson_no": 7,
+                "when_to_say": "Used to describe something that is fun or enjoyable.",
+                "example": "この映画はとても楽しいです。 (kono eiga wa totemo tanoshii desu.) - This movie is very fun."
+              },
+              {
+                "id": "word043",
+                "word": "忙しい",
+                "pronunciation": "isogashii",
+                "meaning": "busy",
+                "part_of_speech": "adjective",
+                "difficulty": "easy",
+                "lesson_no": 7,
+                "when_to_say": "Used to describe someone or something that is busy.",
+                "example": "今日はとても忙しいです。 (kyou wa totemo isogashii desu.) - I am very busy today."
+              },
+              {
+                "id": "word044",
+                "word": "簡単",
+                "pronunciation": "kantan",
+                "meaning": "easy, simple",
+                "part_of_speech": "adjective",
+                "difficulty": "hard",
+                "lesson_no": 8,
+                "when_to_say": "Used to describe something that is easy or simple.",
+                "example": "この問題は簡単です。 (kono mondai wa kantan desu.) - This problem is easy."
+              },
+              {
+                "id": "word045",
+                "word": "難しい",
+                "pronunciation": "muzukashii",
+                "meaning": "difficult",
+                "part_of_speech": "adjective",
+                "difficulty": "hard",
+                "lesson_no": 8,
+                "when_to_say": "Used to describe something that is difficult.",
+                "example": "日本語は難しいです。 (nihongo wa muzukashii desu.) - Japanese is difficult."
+              },
+              {
+                "id": "word046",
+                "word": "高い",
+                "pronunciation": "takai",
+                "meaning": "high, expensive",
+                "part_of_speech": "adjective",
+                "difficulty": "hard",
+                "lesson_no": 8,
+                "when_to_say": "Used to describe something that is high in price or height.",
+                "example": "このシャツは高いです。 (kono shatsu wa takai desu.) - This shirt is expensive."
+              },
+              {
+                "id": "word047",
+                "word": "安い",
+                "pronunciation": "yasui",
+                "meaning": "cheap, inexpensive",
+                "part_of_speech": "adjective",
+                "difficulty": "hard",
+                "lesson_no": 8,
+                "when_to_say": "Used to describe something that is low in price.",
+                "example": "この本は安いです。 (kono hon wa yasui desu.) - This book is cheap."
+              },
+              {
+                "id": "word048",
+                "word": "大丈夫",
+                "pronunciation": "daijoubu",
+                "meaning": "okay, alright",
+                "part_of_speech": "expression",
+                "difficulty": "hard",
+                "lesson_no": 9,
+                "when_to_say": "Used to reassure or confirm that something is fine.",
+                "example": "大丈夫です、心配しないでください。 (daijoubu desu, shinpai shinaide kudasai.) - It's okay, don't worry."
+              },
+              {
+                "id": "word049",
+                "word": "会う",
+                "pronunciation": "au",
+                "meaning": "to meet",
+                "part_of_speech": "verb",
+                "difficulty": "hard",
+                "lesson_no": 10,
+                "when_to_say": "Used when referring to meeting someone.",
+                "example": "友達に会うのが楽しみです。 (tomodachi ni au no ga tanoshimi desu.) - I’m looking forward to meeting my friends."
+              },
+              {
+                "id": "word050",
+                "word": "歩く",
+                "pronunciation": "aruku",
+                "meaning": "to walk",
+                "part_of_speech": "verb",
+                "difficulty": "hard",
+                "lesson_no": 10,
+                "when_to_say": "Used when referring to walking.",
+                "example": "公園を歩いています。 (kouen wo aruite imasu.) - I am walking in the park."
+              }
+            
+         
+          
+       
+    
+      
+]

@@ -9,10 +9,10 @@ const Success = () => {
         <div className='success bg-[#a5a2a217] pt-7 pb-14'>
 
             <div className='flex flex-col items-center justify-center mb-10'><p className='inline-block text-[1.4rem] font-extrabold text-[#1470a9]  text-center mb-2 '>Our Success</p>
-                <p className='text-gray-500 font-semibold text-[0.9rem] text-center'>We all try our best to increase all the learning related rating thats <br /> why Users are fully satisfied. </p>
+                <p className='text-gray-500  text-[0.8rem] text-center'>We all try our best to increase all the learning related rating thats <br /> why Users are fully satisfied. </p>
 
             </div>
-            <div className=' w-[80%] mx-auto flex justify-between items-center py-6'>
+            <div className=' w-[80%] mx-auto grid grid-cols-2 md:grid-cols-4 gap-[4rem] py-6'>
 
 
 

@@ -1,9 +1,9 @@
 import React from 'react';
-import Banner from '../components/Banner/Banner';
 import About from '../components/About';
 import Success from '../components/Success';
 import Testimonial from '../components/Testimonial';
 import Slider from '../components/Slider/Slider';
+import Award from '../components/Award';
 
 const Home = () => {
     return (
@@ -13,6 +13,7 @@ const Home = () => {
           <About></About>
           <Success></Success>
           <Testimonial></Testimonial>
+          <Award></Award>
         </div>
     );
 };

@@ -24,7 +24,7 @@ const Header = () => {
                 <div className={`bg-gray-600 p-4 md:hidden absolute   duration-[600ms]  pt-4 pl-7 w-48 top-[5.5rem] h-screen ${open ? "  left-0" : "left-[-13rem]"}`}>
 
                     <ul className=' text-slate-200 text-[0.8rem] lg:text-base gap-6 lg:gap-12 '>
-                        <li className='mb-2 font-semibold text-[1.1rem] '><NavLink to={"/"} >Home</NavLink></li>
+                        <li className='mb-2 font-semibold text-[1.1rem]  '><NavLink to={"/"} >Home</NavLink></li>
                         <li className=' mb-2 font-semibold text-[1.1rem] '><NavLink to={"/learning"} >Start-learning</NavLink></li>
                         <li className='mb-2 font-semibold text-[1.1rem] '><NavLink to={"/tutorial"} >Tutorials</NavLink></li>
                         <li className='mb-2 font-semibold text-[1.1rem] '><NavLink to={"/about"} >About-Us</NavLink></li>
@@ -41,10 +41,10 @@ const Header = () => {
                </div>
 
                 <ul className='hidden md:flex text-[0.9rem] gap-6 lg:gap-12'>
-                    <li className='font-semibold text-slate-500'><NavLink to={"/"} >Home</NavLink></li>
-                    <li className='font-semibold text-slate-500'><NavLink to={"/learning"} >Start-learning</NavLink></li>
-                    <li className='font-semibold text-slate-500'><NavLink to={"/tutorial"} >Tutorials</NavLink></li>
-                    <li className='font-semibold text-slate-500'><NavLink  to={"/about"} >About-Us</NavLink></li>
+                    <li className='font-semibold text-slate-500 hover:text-[#0392c5]'><NavLink to={"/"} >Home</NavLink></li>
+                    <li className='font-semibold text-slate-500 hover:text-[#0392c5]'><NavLink to={"/learning"} >Start-learning</NavLink></li>
+                    <li className='font-semibold text-slate-500 hover:text-[#0392c5]'><NavLink to={"/tutorial"} >Tutorials</NavLink></li>
+                    <li className='font-semibold text-slate-500 hover:text-[#0392c5]'><NavLink  to={"/about"} >About-Us</NavLink></li>
 
                 </ul>
 
