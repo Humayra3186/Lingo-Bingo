@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import { IoMenuSharp } from "react-icons/io5";
 import { RxCross2 } from "react-icons/rx";
 
@@ -36,7 +36,7 @@ const Header = () => {
 
 
                <div className='flex items-end'>
-               <span className='text-[1.6rem] lg:text-[2rem]  italic   font-extrabold  bg-gradient-to-b from-cyan-400 to-blue-800 bg-clip-text text-transparent '>L</span>
+               <span className='logo text-[1.6rem] lg:text-[2rem]  italic   font-extrabold  bg-gradient-to-b from-cyan-400 to-blue-800 bg-clip-text text-transparent '>L</span>
                <p className='text-[1.2rem] lg:text-[1.5rem]  italic   font-extrabold font-serif text-slate-700 ' >ingoBingo</p>
                </div>
 
@@ -48,7 +48,7 @@ const Header = () => {
 
                 </ul>
 
-                <button className='py-2 px-3 rounded-lg bg-gradient-to-b from-cyan-400 to-blue-700 text-white font-bold'>Login</button>
+                <Link to={"/login"} className='py-2 px-3 rounded-lg bg-gradient-to-b from-cyan-400 to-blue-700 text-white font-bold'>Login</Link>
             </div>
 
         </div>

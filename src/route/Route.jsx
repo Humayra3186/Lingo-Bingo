@@ -6,6 +6,8 @@ import Learning from '../Layouts/Learning';
 import Tutorial from '../Layouts/Tutorial';
 import About from '../Layouts/About';
 import Vocabulary from '../Layouts/Vocabulary';
+import Login from '../Layouts/Login';
+import Register from '../Layouts/Register';
 
 const Route = createBrowserRouter([
     {
@@ -38,6 +40,14 @@ const Route = createBrowserRouter([
             const vocabularies = data.filter(d => d.lesson_no == params.id)
             return vocabularies; 
           }
+        },
+        {
+          path: "/login",
+          element: <Login></Login>
+        },
+        {
+          path: "/register",
+          element: <Register></Register>
         }
       ]
     },

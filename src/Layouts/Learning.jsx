@@ -1,9 +1,13 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import { GiClick } from "react-icons/gi";
+import { AuthContext } from '../AuthProvider';
 
 const Learning = () => {
+
+  
     const lessons = [1,2,3,4,5,6,7,8,9,10]
+
     return (
         <div className='bg-base-200'>
              <div className='py-7 flex flex-col items-center  bg-gradient-to-b from-cyan-500 to-blue-500   justify-center mb-10'><p className='inline-block text-[1.6rem] font-extrabold text-white  text-center mb-2 '>Learn Japanese <br /> Language With Lingo-Bingo</p>
