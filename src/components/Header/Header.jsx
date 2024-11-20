@@ -1,10 +1,24 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 
-import { Link, NavLink } from 'react-router-dom';
+import { Link, NavLink, useNavigate } from 'react-router-dom';
 import { IoMenuSharp } from "react-icons/io5";
 import { RxCross2 } from "react-icons/rx";
+import { AuthContext } from '../../AuthProvider';
 
 const Header = () => {
+
+    const navigate = useNavigate()
+
+    const {user,logOut} = useContext(AuthContext)
+
+    const handleLogOut =()=>{
+        logOut()
+        .then(() => {
+           navigate("/")
+          }).catch((error) => {
+            // An error happened.
+          });
+    }
 
     const [open, setOpen] = useState(false)
     return (
@@ -35,20 +49,29 @@ const Header = () => {
                 </div>
 
 
-               <div className='flex items-end'>
-               <span className='logo text-[1.6rem] lg:text-[2rem]  italic   font-extrabold  bg-gradient-to-b from-cyan-400 to-blue-800 bg-clip-text text-transparent '>L</span>
-               <p className='text-[1.2rem] lg:text-[1.5rem]  italic   font-extrabold font-serif text-slate-700 ' >ingoBingo</p>
-               </div>
+                <div className='flex items-end'>
+                    <span className='logo text-[1.6rem] lg:text-[2rem]  italic   font-extrabold  bg-gradient-to-b from-cyan-400 to-blue-800 bg-clip-text text-transparent '>L</span>
+                    <p className='text-[1.2rem] lg:text-[1.5rem]  italic   font-extrabold font-serif text-slate-700 ' >ingoBingo</p>
+                </div>
 
                 <ul className='hidden md:flex text-[0.9rem] gap-6 lg:gap-12'>
                     <li className='font-semibold text-slate-500 hover:text-[#0392c5]'><NavLink to={"/"} >Home</NavLink></li>
                     <li className='font-semibold text-slate-500 hover:text-[#0392c5]'><NavLink to={"/learning"} >Start-learning</NavLink></li>
                     <li className='font-semibold text-slate-500 hover:text-[#0392c5]'><NavLink to={"/tutorial"} >Tutorials</NavLink></li>
-                    <li className='font-semibold text-slate-500 hover:text-[#0392c5]'><NavLink  to={"/about"} >About-Us</NavLink></li>
+                    <li className='font-semibold text-slate-500 hover:text-[#0392c5]'><NavLink to={"/about"} >About-Us</NavLink></li>
 
                 </ul>
 
-                <Link to={"/login"} className='py-2 px-3 rounded-lg bg-gradient-to-b from-cyan-400 to-blue-700 text-white font-bold'>Login</Link>
+                <div >
+                     {
+                        user? <div className='flex justify-center gap-3 items-center'>
+                            <img className='w-[2.8rem] h-[2.8rem] rounded-full' src={user.photoURL} alt="" />
+                            <Link onClick={handleLogOut} className='py-2 px-3 rounded-lg bg-gradient-to-b from-cyan-400 to-blue-700 text-white font-bold'>LogOut</Link>
+                        </div> :
+                        <Link to={"/login"} className='py-2 px-3 rounded-lg bg-gradient-to-b from-cyan-400 to-blue-700 text-white font-bold'>Login</Link>
+                     }
+                </div>
+                
             </div>
 
         </div>
