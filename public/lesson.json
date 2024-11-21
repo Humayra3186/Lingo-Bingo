@@ -62,7 +62,7 @@
           "pronunciation": "utsukushii",
           "meaning": "beautiful",
           "part_of_speech": "adjective",
-          "difficulty": "medium",
+          "difficulty": "easy",
           "lesson_no": 3,
           "when_to_say": "Used to describe something visually pleasing.",
           "example": "その花は美しいです。 (sono hana wa utsukushii desu.) - That flower is beautiful."
@@ -84,7 +84,7 @@
           "pronunciation": "daijoubu",
           "meaning": "okay",
           "part_of_speech": "expression",
-          "difficulty": "easy",
+          "difficulty": "medium",
           "lesson_no": 4,
           "when_to_say": "Used to express reassurance or ask if someone is fine.",
           "example": "大丈夫ですか？ (daijoubu desu ka?) - Are you okay?"
@@ -95,7 +95,7 @@
           "pronunciation": "sora",
           "meaning": "sky",
           "part_of_speech": "noun",
-          "difficulty": "easy",
+          "difficulty": "medium",
           "lesson_no": 4,
           "when_to_say": "Used when referring to the sky.",
           "example": "空が青いです。 (sora ga aoi desu.) - The sky is blue."
@@ -117,7 +117,7 @@
           "pronunciation": "tomodachi",
           "meaning": "friend",
           "part_of_speech": "noun",
-          "difficulty": "easy",
+          "difficulty": "medium",
           "lesson_no": 5,
           "when_to_say": "Used to refer to a friend.",
           "example": "友達と遊びます。 (tomodachi to asobimasu.) - I play with my friend."
@@ -161,7 +161,7 @@
           "pronunciation": "hashiru",
           "meaning": "to run",
           "part_of_speech": "verb",
-          "difficulty": "medium",
+          "difficulty": "hard",
           "lesson_no": 7,
           "when_to_say": "Used when talking about running.",
           "example": "毎朝走ります。 (maiasa hashirimasu.) - I run every morning."
@@ -184,7 +184,7 @@
               "pronunciation": "benkyou",
               "meaning": "study",
               "part_of_speech": "noun",
-              "difficulty": "medium",
+              "difficulty": "hard",
               "lesson_no": 8,
               "when_to_say": "Used when talking about learning or studying.",
               "example": "日本語を勉強しています。 (nihongo wo benkyou shiteimasu.) - I am studying Japanese."
@@ -261,7 +261,7 @@
               "pronunciation": "hanasu",
               "meaning": "to speak",
               "part_of_speech": "verb",
-              "difficulty": "medium",
+              "difficulty": "hard",
               "lesson_no": 9,
               "when_to_say": "Used to talk about speaking or having conversations.",
               "example": "英語を話します。 (eigo wo hanashimasu.) - I speak English."
@@ -283,7 +283,7 @@
               "pronunciation": "atarashii",
               "meaning": "new",
               "part_of_speech": "adjective",
-              "difficulty": "medium",
+              "difficulty": "hard",
               "lesson_no": 6,
               "when_to_say": "Used to describe something that is recent or unused.",
               "example": "新しい車を買いました。 (atarashii kuruma wo kaimashita.) - I bought a new car."
@@ -316,7 +316,7 @@
               "pronunciation": "kuruma",
               "meaning": "car",
               "part_of_speech": "noun",
-              "difficulty": "easy",
+              "difficulty": "hard",
               "lesson_no": 8,
               "when_to_say": "Used when referring to cars or vehicles.",
               "example": "新しい車があります。 (atarashii kuruma ga arimasu.) - There is a new car."
@@ -337,7 +337,7 @@
                 "pronunciation": "inu",
                 "meaning": "dog",
                 "part_of_speech": "noun",
-                "difficulty": "easy",
+                "difficulty": "medium",
                 "lesson_no": 4,
                 "when_to_say": "Used when referring to a dog.",
                 "example": "犬を飼っています。 (inu wo katte imasu.) - I have a dog."
@@ -348,7 +348,7 @@
                 "pronunciation": "tori",
                 "meaning": "bird",
                 "part_of_speech": "noun",
-                "difficulty": "easy",
+                "difficulty": "medium",
                 "lesson_no": 4,
                 "when_to_say": "Used when referring to a bird.",
                 "example": "鳥が空を飛んでいます。 (tori ga sora wo tonde imasu.) - A bird is flying in the sky."
@@ -359,7 +359,7 @@
                 "pronunciation": "kinou",
                 "meaning": "yesterday",
                 "part_of_speech": "noun",
-                "difficulty": "easy",
+                "difficulty": "hard",
                 "lesson_no": 5,
                 "when_to_say": "Used to refer to the day before today.",
                 "example": "昨日は忙しかったです。 (kinou wa isogashikatta desu.) - Yesterday was busy."
@@ -370,7 +370,7 @@
                 "pronunciation": "kyou",
                 "meaning": "today",
                 "part_of_speech": "noun",
-                "difficulty": "easy",
+                "difficulty": "medium",
                 "lesson_no": 5,
                 "when_to_say": "Used to refer to the present day.",
                 "example": "今日は晴れています。 (kyou wa harete imasu.) - Today is sunny."
@@ -403,7 +403,7 @@
                 "pronunciation": "chiisai",
                 "meaning": "small",
                 "part_of_speech": "adjective",
-                "difficulty": "easy",
+                "difficulty": "hard",
                 "lesson_no": 6,
                 "when_to_say": "Used to describe something that is small in size.",
                 "example": "小さい猫がいます。 (chiisai neko ga imasu.) - There is a small cat."
@@ -425,7 +425,7 @@
                 "pronunciation": "furui",
                 "meaning": "old (things)",
                 "part_of_speech": "adjective",
-                "difficulty": "easy",
+                "difficulty": "medium",
                 "lesson_no": 6,
                 "when_to_say": "Used to describe something that is old.",
                 "example": "古い本を読みました。 (furui hon wo yomimashita.) - I read an old book."

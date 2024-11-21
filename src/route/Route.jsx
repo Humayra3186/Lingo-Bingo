@@ -12,12 +12,14 @@ import Reset from '../Layouts/Reset';
 import Myprofile from '../Layouts/Myprofile';
 import UpdatePro from '../Layouts/UpdatePro';
 import Private from '../Layouts/Private';
+import ErrorPage from '../Layouts/ErrorPage';
 
 
 const Route = createBrowserRouter([
     {
       path: "/",
       element: <MainLayout></MainLayout>,
+      errorElement:<ErrorPage></ErrorPage>,
       children: [
         {
             path: "/",

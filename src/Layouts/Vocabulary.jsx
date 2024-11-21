@@ -12,7 +12,7 @@ const Vocabulary = () => {
     }
     const data = useLoaderData()
     const { lesson_no } = data[0]
-    console.log(data)
+    
     return (
         <div>
             <div className='flex justify-center'>
@@ -21,7 +21,7 @@ const Vocabulary = () => {
 
             <div className='grid grid-cols-3 gap-4 mt-6 w-10/12 mx-auto'>
                 {
-                    data.map(item => <div className={`p-6  rounded-lg ${item.lesson_no == 1 || item.lesson_no == 2 || item.lesson_no == 3 ? "bg-lime-400" : item.lesson_no == 4 || item.lesson_no == 5 || item.lesson_no == 6 ? "bg-amber-300" : "bg-rose-500"}`}>
+                    data.map(item => <div className={`p-6  rounded-lg ${item.difficulty==="easy"&& "bg-lime-400" || item.difficulty === "medium" && "bg-amber-300"|| item.difficulty === "hard" && "bg-rose-500" }`}>
                         <p className='flex justify-between'>Word : {item.word}
                            <button onClick={()=>handlePro(item.pronunciation)}> <HiMiniSpeakerWave className='text-[1.2rem]'></HiMiniSpeakerWave></button>
                         </p>

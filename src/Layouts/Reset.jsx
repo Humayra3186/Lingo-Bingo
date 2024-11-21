@@ -12,7 +12,7 @@ const Reset = () => {
     const email = e.target.email.value
     sendPasswordResetEmail(auth,email)
      .then(() => {
-      alert("Check your email to reset password")
+     
           window.location.href = 'https://mail.google.com'
       
     })

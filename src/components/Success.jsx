@@ -22,9 +22,9 @@ const Success = () => {
 
                     <div className='w-[10rem] h-[5rem] rounded-lg flex justify-center items-center text-center'>
                         <h2 className='text-[2rem] font-semibold text-[#101011] text-center pb-4  '><CountUp
-                            start={450}
+                            start={400}
                             end={500}
-                            duration={4}
+                            duration={10}
                             suffix='+'
 
                         /> </h2>
@@ -38,8 +38,8 @@ const Success = () => {
                     <div className='w-[10rem] h-[5rem] rounded-lg flex justify-center items-center'>
                         <h2 className='text-[2rem] font-semibold text-[#101011] text-center pb-4  '><CountUp
                             start={0}
-                            end={10}
-                            duration={4}
+                            end={100}
+                            duration={10}
                             suffix='+'
 
                         /> </h2>
@@ -51,9 +51,9 @@ const Success = () => {
 
                     <div className='w-[10rem] h-[5rem] rounded-lg flex justify-center items-center'>
                         <h2 className='text-[2rem] font-semibold text-[#101011] text-center pb-4  '><CountUp
-                            start={150}
+                            start={100}
                             end={200}
-                            duration={4}
+                            duration={10}
                             suffix='+'
 
                         /> </h2>
@@ -65,9 +65,9 @@ const Success = () => {
 
                     <div className='w-[10rem] h-[5rem] rounded-lg flex justify-center items-center'>
                         <h2 className='text-[2rem] font-semibold text-[#101011] text-center pb-4 '><CountUp
-                            start={50}
+                            start={0}
                             end={100}
-                            duration={4}
+                            duration={10}
                             suffix='+'
 
                         /> </h2>

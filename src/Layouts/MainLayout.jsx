@@ -2,6 +2,8 @@ import React, { useContext } from 'react';
 import Header from '../components/Header/Header';
 import { Outlet } from 'react-router-dom';
 import { AuthContext } from '../AuthProvider';
+import { MdWavingHand } from 'react-icons/md';
+import Footer from './Footer';
 
 const MainLayout = () => {
     const {user , name ,reg } = useContext(AuthContext)
@@ -19,6 +21,7 @@ const MainLayout = () => {
             }
             <Header></Header>
             <Outlet></Outlet>
+           <Footer></Footer>
         </div>
     );
 };

@@ -25,6 +25,7 @@ const About = () => {
                 </div>
                
                 <div className='md:w-[60%]'>
+                
                    <p className='text-[0.9rem] text-gray-500 text-center '>As an user , You can learn 190+ vocabularies from our website. In our Start-Learning page, there are 10 lessons and every lesson has more than 19 vocabularies.  But, you have to sign up or sign in to start learning vocabularies from today.</p>
                 </div>
             </div>
