@@ -9,7 +9,8 @@ const Header = () => {
 
     const navigate = useNavigate()
 
-    const {user,logOut} = useContext(AuthContext)
+    const {user,logOut,photo} = useContext(AuthContext)
+    console.log(user)
 
     const handleLogOut =()=>{
         logOut()
@@ -59,13 +60,14 @@ const Header = () => {
                     <li className='font-semibold text-slate-500 hover:text-[#0392c5]'><NavLink to={"/learning"} >Start-learning</NavLink></li>
                     <li className='font-semibold text-slate-500 hover:text-[#0392c5]'><NavLink to={"/tutorial"} >Tutorials</NavLink></li>
                     <li className='font-semibold text-slate-500 hover:text-[#0392c5]'><NavLink to={"/about"} >About-Us</NavLink></li>
+                    <li className='font-semibold text-slate-500 hover:text-[#0392c5]'><NavLink to={"/profile"} >My Profile</NavLink></li>
 
                 </ul>
 
                 <div >
                      {
                         user? <div className='flex justify-center gap-3 items-center'>
-                            <img className='w-[2.8rem] h-[2.8rem] rounded-full' src={user.photoURL} alt="" />
+                            <img className='w-[2.8rem] h-[2.8rem] rounded-full' src={photo} alt="" />
                             <Link onClick={handleLogOut} className='py-2 px-3 rounded-lg bg-gradient-to-b from-cyan-400 to-blue-700 text-white font-bold'>LogOut</Link>
                         </div> :
                         <Link to={"/login"} className='py-2 px-3 rounded-lg bg-gradient-to-b from-cyan-400 to-blue-700 text-white font-bold'>Login</Link>

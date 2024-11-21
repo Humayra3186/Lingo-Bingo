@@ -8,6 +8,8 @@ import About from '../Layouts/About';
 import Vocabulary from '../Layouts/Vocabulary';
 import Login from '../Layouts/Login';
 import Register from '../Layouts/Register';
+import Reset from '../Layouts/Reset';
+import Myprofile from '../Layouts/Myprofile';
 
 const Route = createBrowserRouter([
     {
@@ -48,6 +50,14 @@ const Route = createBrowserRouter([
         {
           path: "/register",
           element: <Register></Register>
+        },
+        {
+          path: "/reset",
+          element: <Reset></Reset>
+        },
+        {
+          path: "/profile",
+          element: <Myprofile></Myprofile>
         }
       ]
     },
