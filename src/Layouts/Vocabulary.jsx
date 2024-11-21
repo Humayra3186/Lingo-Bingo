@@ -19,7 +19,7 @@ const Vocabulary = () => {
                 <p className='bg-gradient-to-b from-cyan-500 to-blue-500 py-2  px-16  inline-block text-[1.6rem] font-extrabold text-white  text-center mb-2 '>Lesson - {lesson_no}</p>
             </div>
 
-            <div className='grid grid-cols-3 gap-4 mt-6 w-10/12 mx-auto'>
+            <div className='grid grid-cols-1 lg:grid-cols-3 gap-4 mt-6 w-10/12 mx-auto'>
                 {
                     data.map(item => <div className={`p-6  rounded-lg ${item.difficulty==="easy"&& "bg-lime-400" || item.difficulty === "medium" && "bg-amber-300"|| item.difficulty === "hard" && "bg-rose-500" }`}>
                         <p className='flex justify-between'>Word : {item.word}
