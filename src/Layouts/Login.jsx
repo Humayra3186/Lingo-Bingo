@@ -4,17 +4,36 @@ import { FaEyeSlash } from "react-icons/fa";
 import { Link, useNavigate } from 'react-router-dom';
 import google from '../assets/google.webp'
 import { AuthContext } from '../AuthProvider';
-import { sendPasswordResetEmail } from 'firebase/auth';
+import { GoogleAuthProvider, signInWithPopup } from 'firebase/auth';
 import auth from '../firebaseConfig';
 
 const Login = () => {
   const emailRef  = useRef()
   const navigate = useNavigate()
-    const {user, setUser , login,setDefalt} = useContext(AuthContext)
+    const {user, setUser , login,setDefalt,setReg} = useContext(AuthContext)
     const [show , setShow] = useState(false)
     const [errorMessag , setError]=useState('')
+
+
+    const provider = new GoogleAuthProvider();
+
+    const handlePoup =()=>{
+        signInWithPopup(auth,provider)
+        .then(result =>{
+          
+            setUser(result.user)
+            navigate('/')
+        })
+        .catch(error =>{
+            console.log(error)
+            setUser('')
+        })
+    }
+
+
     const handleLogin =(e)=>{
       e.preventDefault()
+      setReg(false)
       const form = new FormData(e.target)
       const email = form.get('email')
       const password = form.get('password')
@@ -82,7 +101,7 @@ const Login = () => {
     </div>
     
     <div className="divider my-0 w-[20rem] mx-auto">OR</div>
-       <button className='flex justify-center items-center px-[6rem] bg-white py-1 rounded-lg'><img className='w-12' src={google} alt="" /> Login With Google</button>
+       <button onClick={handlePoup} className='flex justify-center items-center px-[6rem] bg-white py-1 rounded-lg'><img className='w-12' src={google} alt="" /> Login With Google</button>
     
         </div>
         </>

@@ -4,44 +4,80 @@ import { FaEyeSlash } from "react-icons/fa";
 import { Link, Navigate, useNavigate } from 'react-router-dom';
 import google from '../assets/google.webp'
 import { AuthContext } from '../AuthProvider';
+import { GoogleAuthProvider, signInWithPopup } from 'firebase/auth';
+import auth from '../firebaseConfig';
 const Register = () => {
+  const pass = /^(?=.*[A-Z])(?=.*[a-z]).{6,}$/;
+
+  const provider = new GoogleAuthProvider();
+
+  const handlePoup = () => {
+
+    signInWithPopup(auth, provider)
+      .then(result => {
+
+        setUser(result.user)
+        navigate('/')
+      })
+      .catch(error => {
+
+        setUser('')
+      })
+  }
+
 
   const navigate = useNavigate()
 
-  const [errorMessage , setError]=useState('')
+  const [errorMessage, setError] = useState('')
   const [show, setShow] = useState(false)
-  const {user, setUser, createUser ,updateUser} = useContext(AuthContext)
+  const { user, setUser, createUser, updateUser,setReg,load, setPhoto ,setName } = useContext(AuthContext)
 
-  console.log(user)
-  const handleRegister =(e) =>{
+
+  const handleRegister = (e) => {
     e.preventDefault()
+  setReg(true)
+    
+
     const form = new FormData(e.target)
     const name = form.get('name')
     const photo = form.get('photo')
     const email = form.get('email')
     const password = form.get('password')
+      
+    if (pass.test(password)) {
+      setError('')
+      createUser(email, password)
+        .then((person) => {
+        
+          setName(person.displayName
+          )         
+          updateUser({
+            displayName: name, photoURL: photo
+          })
+            .then(() => {
+              setUser(person.user)
+              setPhoto(person.photoURL) 
+              navigate('/')
+            }).catch((error) => {
+              console.log(errorMessage)
+            });
 
-    createUser(email , password)
-    .then((person) => {
-      
-      setUser(person.user)
-      updateUser({displayName:name , photoURL:photo 
-      })
-      .then(() => {
-        navigate('/')
-      }).catch((error) => {
-        console.log(errorMessage)
-      });
-      
-     
-     
-    })
-    .catch((error) => {
-    
-      const errorMessage = error.message;
-      setError(errorMessage)
-      
-    });
+
+
+        })
+        .catch((error) => {
+
+          const errorMessage = error.message;
+          setError(errorMessage)
+
+        });
+    }
+
+    else{
+      setError('Invalid Password')
+    }
+
+
   }
 
 
@@ -91,13 +127,13 @@ const Register = () => {
             <div className="form-control mt-6">
               <button className="btn  bg-gradient-to-b text-white from-cyan-500 to-blue-500">Register</button>
             </div>
-          
+
           </form>
           <p className='text-center pt-5 pb-10'>Already have any account? <Link to={'/login'} className='text-[1.2rem] text-sky-600 '>Login</Link></p>
         </div>
 
         <div className="divider my-0 w-[20rem] mx-auto">OR</div>
-        <button className='flex justify-center items-center px-[6rem] bg-white py-1 rounded-lg'><img className='w-12' src={google} alt="" /> Login With Google</button>
+        <button onClick={handlePoup} className='flex justify-center items-center px-[6rem] bg-white py-1 rounded-lg'><img className='w-12' src={google} alt="" /> Login With Google</button>
 
       </div>
     </>

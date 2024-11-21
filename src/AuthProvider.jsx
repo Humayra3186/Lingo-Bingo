@@ -9,6 +9,9 @@ const AuthProvider = ({children}) => {
      const[name , setName] = useState('')
      const [defalt ,setDefalt] = useState('')
     const [user , setUser] = useState(null)
+    const [load , setLoad]= useState(true)
+
+    const [reg, setReg] = useState(true)
 
     const createUser =(email, password)=>{
        return (
@@ -40,6 +43,7 @@ const AuthProvider = ({children}) => {
            setPhoto(currentUser?.photoURL)
            setName(currentUser?.displayName)
            setMail(currentUser?.email)
+           setLoad(false)
    
           })
          return ()=>{
@@ -51,7 +55,7 @@ const AuthProvider = ({children}) => {
        return (signOut(auth))
       }
 
-    const info = {user,setUser,createUser , updateUser ,logOut,login,photo,defalt,setDefalt , mail ,name}
+    const info = {user,setUser,createUser , updateUser ,logOut,login,photo,defalt,setDefalt , mail ,name,setPhoto,setName,load,setPhoto,setName,reg,setReg}
 
     return (
        <AuthContext.Provider value={info}>

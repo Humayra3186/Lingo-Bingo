@@ -10,6 +10,9 @@ import Login from '../Layouts/Login';
 import Register from '../Layouts/Register';
 import Reset from '../Layouts/Reset';
 import Myprofile from '../Layouts/Myprofile';
+import UpdatePro from '../Layouts/UpdatePro';
+import Private from '../Layouts/Private';
+
 
 const Route = createBrowserRouter([
     {
@@ -26,7 +29,10 @@ const Route = createBrowserRouter([
         },
         {
             path: "/tutorial",
-            element: <Tutorial></Tutorial>
+            element:<Private>
+                  <Tutorial></Tutorial>
+            </Private>
+            
         },
         {
             path: "/about",
@@ -34,7 +40,10 @@ const Route = createBrowserRouter([
         },
         {
           path: "/lessons/:id",
-          element: <Vocabulary></Vocabulary>,
+          element: <Private>
+               <Vocabulary></Vocabulary>
+          </Private>
+           ,
           loader:async({params})=>{
             const res = await fetch("/lesson.json")
             const data = await res.json()
@@ -57,7 +66,14 @@ const Route = createBrowserRouter([
         },
         {
           path: "/profile",
-          element: <Myprofile></Myprofile>
+          element: <Private>
+                  <Myprofile></Myprofile>
+          </Private>
+          
+        },
+        {
+          path: "/update",
+          element: <UpdatePro></UpdatePro>
         }
       ]
     },
