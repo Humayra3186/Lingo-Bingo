@@ -10,12 +10,12 @@ import svn from "../assets/A7.png"
 const Award = () => {
     return (
         <div>
-             <div className='flex flex-col items-center justify-center mb-10'><p className='inline-block text-[1.4rem] font-extrabold text-cyan-600  text-center mb-2 '>An award-winning <br /> teaching & learning experience!</p>
+             <div className='flex flex-col items-center justify-center mb-12'><p className='inline-block text-[1.4rem] font-extrabold text-cyan-600  text-center mb-2 '>An award-winning <br /> teaching & learning experience!</p>
                     <p className='text-gray-500  text-[0.8rem]'>Teachers and learners are doing amazing things with Lingo-Bingo</p>
 
                 </div>
 
-                <div className='w-[50%] mx-auto flex justify-between'>
+                <div className='w-[55%] mb-[3rem] mx-auto flex justify-between'>
                     <div className='w-[10rem] h-[7rem]'>
                         <img className='w-full h-full' src={fst} alt="" />
                     </div>
@@ -30,7 +30,7 @@ const Award = () => {
                 </div>
                 <div>
 
-                <div className='w-[65%] mx-auto flex justify-between'>
+                <div className='w-[80%] lg:w-[65%] mx-auto flex justify-between'>
                     <div className='w-[10rem] h-[7rem]'>
                         <img className='w-full h-full' src={futh} alt="" />
                     </div>

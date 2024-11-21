@@ -18,8 +18,8 @@ const About = () => {
 
             </div>
 
-            <div  className='flex md:gap-32 flex-col md:flex-row-reverse justify-center items-center  my-[2.5rem]'>
-                <div className='md:w-[40%]'>
+            <div  className='flex md:justify-between flex-col md:flex-row-reverse justify-center items-center  my-[2.5rem]'>
+                <div >
                 <h2  className=' text-[1.5rem] font-bold   text-[#093e77]  text-center animate__animated animate__slower animate__infinite animate__delay-[1.5s] animate__slideInRight '>Learn Vocabularies</h2>
                 <img className='h-[5.7rem] ' src={back} alt="" />
                 </div>

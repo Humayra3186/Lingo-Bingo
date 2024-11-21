@@ -8,7 +8,7 @@ const Myprofile = () => {
 
     return (
         <div className='bg-base-200 min-h-screen flex justify-center items-center'>
-            <div className='bg-white w-[40%] mx-auto '>
+            <div className='bg-white w-[70%] md:w-[40%] mx-auto '>
                 <div className='bg-[#b5e0f5] flex flex-col font-bold  justify-center items-center py-3'>
                     <h1 className='flex justify-center items-center text-[1.2rem]   gap-3'>Welcome <MdWavingHand className='text-[#efb446]'></MdWavingHand></h1>
                     {

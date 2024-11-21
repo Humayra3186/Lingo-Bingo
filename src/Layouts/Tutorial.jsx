@@ -9,47 +9,47 @@ const Tutorial = () => {
 
                 </div>
 
-                <div className='grid grid-cols-2
+                <div className='grid grid-cols-1 lg:grid-cols-2
                  w-11/12 mx-auto gap-8'>
                     <div className=' bg-white p-3'>
                     <h2 className='mb-4 flex  mx-auto text-[#054c97c5] font-bold text-[1.4rem] mt-3'>Introduction: </h2>
-                        <iframe width="535" height="315" src="https://www.youtube.com/embed/rGrBHiuPlT0?si=heWeLEYsosBhX7pW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                        <iframe className='w-full'  height="315" src="https://www.youtube.com/embed/rGrBHiuPlT0?si=heWeLEYsosBhX7pW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
                
 
                 <div className=' bg-white p-3'>
                 <h2 className='mb-4 flex  mx-auto text-[#054c97c5]  font-bold text-[1.4rem] mt-3'>Count: </h2>
-                    <iframe width="535" height="315" src="https://www.youtube.com/embed/bOUqVC4XkOY?si=XxHSYl-GwV2RDB60" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                    <iframe className='w-full'  height="315"  src="https://www.youtube.com/embed/bOUqVC4XkOY?si=XxHSYl-GwV2RDB60" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
 
                 <div className=' bg-white p-3'>
                 <h2 className='mb-4 flex  mx-auto text-[#054c97c5] font-bold text-[1.4rem] mt-3'>Week & Days: </h2>
-                <iframe width="535" height="315" src="https://www.youtube.com/embed/JnoZE51WZg4?si=XQgntVE6ZGV4-nCT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe className='w-full'  height="315"  src="https://www.youtube.com/embed/JnoZE51WZg4?si=XQgntVE6ZGV4-nCT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
 
                 <div className=' bg-white p-3'>
                 <h2 className='mb-4 flex  mx-auto text-[#054c97c5] font-bold text-[1.4rem] mt-3'>Destination: </h2>
-                <iframe width="535" height="315" src="https://www.youtube.com/embed/k74yjmfFb_A?si=4TTg1-qfuVRdYypC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe className='w-full'  height="315"  src="https://www.youtube.com/embed/k74yjmfFb_A?si=4TTg1-qfuVRdYypC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
 
                 <div className=' bg-white p-3'>
                 <h2 className='mb-4 flex  mx-auto text-[#054c97c5] font-bold text-[1.4rem] mt-3'>Verbs : </h2>
-                <iframe width="535" height="315" src="https://www.youtube.com/embed/KUIWRsVZZZA?si=WILWtI5rtrP-l6tz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe className='w-full'  height="315"  src="https://www.youtube.com/embed/KUIWRsVZZZA?si=WILWtI5rtrP-l6tz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
 
                 <div className=' bg-white p-3'>
                 <h2 className='mb-4 flex  mx-auto text-[#054c97c5] font-bold text-[1.4rem] mt-3'>To Do Verbs: </h2>
-                <iframe width="535" height="315" src="https://www.youtube.com/embed/ZGGufccTLso?si=Q4qRwymMTtV2NN2T" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe className='w-full'  height="315"  src="https://www.youtube.com/embed/ZGGufccTLso?si=Q4qRwymMTtV2NN2T" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
 
                 <div className=' bg-white p-3'>
                 <h2 className='mb-4 flex  mx-auto text-[#054c97c5] font-bold text-[1.4rem] mt-3'>Give & Receive: </h2>
-                <iframe width="535" height="315" src="https://www.youtube.com/embed/W0n-ODPwtzA?si=UXMRLX92rG93j986" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe className='w-full'  height="315"  src="https://www.youtube.com/embed/W0n-ODPwtzA?si=UXMRLX92rG93j986" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
 
                 <div className=' bg-white p-3'>
                 <h2 className='mb-4 flex  mx-auto text-[#054c97c5] font-bold text-[1.4rem] mt-3'>Family: </h2>
-                <iframe width="535" height="315" src="https://www.youtube.com/embed/p9PEIsOzJ5E?si=r8WtzAoSQ28ve0Cw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe className='w-full'  height="315"  src="https://www.youtube.com/embed/p9PEIsOzJ5E?si=r8WtzAoSQ28ve0Cw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
                 </div>
 
