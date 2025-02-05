@@ -38,10 +38,10 @@
 ##  Installation & Setup  
 
 ## Clone the repository
-git clone https://github.com/Humayra3186/Hotel-Westin.git
+https://github.com/Humayra3186/Lingo-Bingo.git
 
 ## Navigate to the project directory
-cd Hotel-Westin
+cd Lingo-Bingo
 
 ## Install dependencies
 npm install
