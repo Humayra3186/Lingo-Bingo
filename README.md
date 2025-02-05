@@ -35,6 +35,22 @@
 - react icons for icons
 - react-count-up for showing count
 
+##  Installation & Setup  
+
+## Clone the repository
+git clone https://github.com/Humayra3186/Hotel-Westin.git
+
+## Navigate to the project directory
+cd Hotel-Westin
+
+## Install dependencies
+npm install
+
+## Start 
+npm run dev
+  
+  
+
 
  
 
