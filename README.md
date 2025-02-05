@@ -12,12 +12,11 @@
 
 
 
-## React Fundamental Concepts
-   - Different Kinds of React-Components
-   - Conditional rendering
-   - Hooks like : <h4>useState , useEffect , useNavigate<h4>
-   - Context-API
-   - React-Route
+## Main Technologies 
+- Frontend: React.js , Tailwind CSS   
+- Authentication: Firebase   
+- State Management:  Context API   
+- Hosting: Vercel , Netlify 
   
 
 
@@ -28,7 +27,7 @@
 - update profile
 
 
-## npm Packages
+## Used Dependencies
 - React router for SPA application 
 - Animation.css for text animation
 - Firebase for Authentication
